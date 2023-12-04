@@ -1,0 +1,53 @@
+2023/03/23 04:46:19 [error] 2872#3448: *1 CreateFile() "C:\Users\Alex\Downloads\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/03/23 04:47:30 [notice] 1668#3980: signal process started
+2023/03/23 05:55:29 [emerg] 2356#3412: unknown directive "proxy_pass:" in C:\Users\Alex\Downloads\nginx-1.22.1/conf/nginx.conf:121
+2023/03/23 05:56:23 [notice] 1704#4724: signal process started
+2023/03/23 05:56:25 [error] 4904#4460: *5 CreateFile() "C:\Users\Alex\Downloads\nginx-1.22.1/html/second2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /second2 HTTP/1.1", host: "127.0.0.1"
+2023/03/23 05:56:27 [error] 4904#4460: *5 CreateFile() "C:\Users\Alex\Downloads\nginx-1.22.1/html/second1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /second1 HTTP/1.1", host: "127.0.0.1"
+2023/03/23 05:57:27 [notice] 3580#944: signal process started
+2023/03/23 05:57:34 [error] 4916#5044: *8 CreateFile() "C:\Users\Alex\Downloads\nginx-1.22.1/html/second2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /second2 HTTP/1.1", host: "127.0.0.1"
+2023/12/04 21:19:49 [notice] 1328#14716: signal process started
+2023/12/04 21:20:07 [error] 14664#14892: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:20:07 [error] 14664#14892: *1 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/first/"
+2023/12/04 21:20:26 [error] 14664#14892: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:23:22 [notice] 14784#7548: signal process started
+2023/12/04 21:23:28 [error] 14664#14892: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:23:40 [error] 14664#14892: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:24:44 [error] 14664#14892: *6 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/index" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /index HTTP/1.1", host: "127.0.0.1"
+2023/12/04 21:26:08 [error] 14664#14892: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /second/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:29:34 [notice] 6532#7288: signal process started
+2023/12/04 21:29:45 [error] 14664#14892: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:30:19 [error] 14664#14892: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /second/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:31:04 [error] 14664#14892: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:34:16 [error] 14664#14892: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:34:20 [notice] 14084#14012: signal process started
+2023/12/04 21:34:25 [error] 14664#14892: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:34:32 [notice] 9816#7860: signal process started
+2023/12/04 21:34:48 [error] 14664#14892: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:38:27 [error] 14664#14892: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /second/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:40:22 [notice] 12724#13756: signal process started
+2023/12/04 21:40:28 [error] 14664#14892: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /second/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:40:33 [error] 14664#14892: *21 "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/firts/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /firts/ HTTP/1.1", host: "127.0.0.1"
+2023/12/04 21:40:41 [error] 14664#14892: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:43:01 [notice] 11252#1832: signal process started
+2023/12/04 21:43:07 [error] 14664#14892: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:43:32 [error] 14664#14892: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/134.html HTTP/1.1", upstream: "http://127.0.0.1:8000/134.html", host: "127.0.0.1"
+2023/12/04 21:44:09 [notice] 4180#13944: signal process started
+2023/12/04 21:44:13 [error] 14664#14892: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/134.html HTTP/1.1", upstream: "http://127.0.0.1:8000/134.html", host: "127.0.0.1"
+2023/12/04 21:44:33 [notice] 14536#15604: signal process started
+2023/12/04 21:45:06 [error] 14664#14892: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/134.html HTTP/1.1", upstream: "http://127.0.0.1:8000/134.html", host: "127.0.0.1"
+2023/12/04 21:45:11 [error] 14664#14892: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /first/ HTTP/1.1", upstream: "http://127.0.0.1:8000/", host: "127.0.0.1"
+2023/12/04 21:57:55 [error] 14664#14892: *30 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/second/"
+2023/12/04 21:57:58 [error] 14664#14892: *30 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/first/"
+2023/12/04 21:59:58 [notice] 17404#16616: signal process started
+2023/12/04 22:00:05 [error] 14664#14892: *30 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/second/"
+2023/12/04 22:00:14 [notice] 3036#16652: signal process started
+2023/12/04 22:00:21 [notice] 16156#18172: signal process started
+2023/12/04 22:00:21 [error] 16156#18172: CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/04 22:08:01 [error] 15404#5088: *5 "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/first/index.html" is not found (3: The system cannot find the path specified), client: 192.168.9.245, server: localhost, request: "GET /first/ HTTP/1.1", host: "192.168.9.245"
+2023/12/04 22:08:01 [error] 15404#5088: *5 CreateFile() "C:\Users\ReWoodPC\Desktop\NETWORK_LABS\Lab6\nginx-1.22.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.9.245, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.9.245", referrer: "http://192.168.9.245/first/"
+2023/12/04 22:08:43 [notice] 9992#15696: signal process started
+2023/12/04 22:08:43 [error] 9992#15696: OpenEvent("Global\ngx_reload_14356") failed (2: The system cannot find the file specified)
+2023/12/04 23:48:32 [notice] 10952#15584: signal process started
+2023/12/04 23:48:32 [error] 10952#15584: OpenEvent("Global\ngx_reload_13568") failed (2: The system cannot find the file specified)
+2023/12/04 23:48:43 [notice] 11500#17348: signal process started

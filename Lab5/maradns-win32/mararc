@@ -1,0 +1,5 @@
+hide_disclaimer = "YES"
+ipv4_bind_addresses = "127.0.0.1"
+chroot_dir = "./zones"
+csv2 = {}
+csv2["yura.salkov228.ru."] = "./zones/db.zone1"
